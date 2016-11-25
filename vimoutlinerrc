@@ -23,11 +23,12 @@ let g:vo_modules_load = "checkbox:tags:smart_paste"
 "let g:vo_modules_load .= ':clock'
 
 "User Preferences ***************************************************
-let maplocalleader = "\<c-\>\<c-\>"		" uncomment for compatibility with
+let maplocalleader = "\<c-\>"		" uncomment for compatibility with
                                         " previous versions of VO
 
 setlocal ignorecase			" searches ignore case
 setlocal smartcase			" searches use smart case
+setlocal foldlevel=1
 "setlocal wrapmargin=5
 "setlocal tw=78
 "setlocal tabstop=4			" tabstop and shiftwidth must match
