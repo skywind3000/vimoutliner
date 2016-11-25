@@ -26,8 +26,8 @@ let g:vo_modules_load = "checkbox:tags:smart_paste"
 let maplocalleader = "\<c-\>\<c-\>"		" uncomment for compatibility with
                                         " previous versions of VO
 
-"setlocal ignorecase			" searches ignore case
-"setlocal smartcase			" searches use smart case
+setlocal ignorecase			" searches ignore case
+setlocal smartcase			" searches use smart case
 "setlocal wrapmargin=5
 "setlocal tw=78
 "setlocal tabstop=4			" tabstop and shiftwidth must match
