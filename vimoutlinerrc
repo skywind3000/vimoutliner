@@ -28,7 +28,6 @@ let maplocalleader = "\<c-\>"		" uncomment for compatibility with
 
 setlocal ignorecase			" searches ignore case
 setlocal smartcase			" searches use smart case
-setlocal foldlevel=1
 "setlocal wrapmargin=5
 "setlocal tw=78
 "setlocal tabstop=4			" tabstop and shiftwidth must match
